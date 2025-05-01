@@ -1,0 +1,52 @@
+name: rhytmics
+description: A modern music studio booking application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  http: ^1.1.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.1.12
+  image_picker: ^1.0.2
+  flutter_svg: ^2.0.7
+  lottie: ^2.6.0
+  dio: ^5.3.2
+  flutter_secure_storage: ^8.0.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
